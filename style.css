@@ -1,0 +1,64 @@
+body{
+}
+
+.First_page_container{
+    display: flex;
+}
+
+.video_list{
+    float: left;
+    width: 30%;
+    list-style-type: none;
+    padding: 0;
+    font-size: 3vw;
+    margin-top: 0;
+
+}
+
+.video_list h1{
+    font-size: 3.5vw;
+}
+
+.video_list li{
+    border: 2px solid black;
+}
+
+
+
+
+.record_container{
+    margin-left: 10%;
+}
+
+#upload_video{
+    background-color: black;
+}
+
+
+
+
+
+#btn_record{
+    margin-top: 5%;
+    font-size: 2vw;
+    margin-left: 30%;
+    width: 50%;
+}
+
+#btn_stop_record{
+    margin-top: 5%;
+    font-size: 2vw;
+    margin-left: 30%;
+    width: 50%;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+#watch_video{
+
+}
+
+.watch_container{
+    margin-left: 10%;
+}
